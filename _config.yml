@@ -5,7 +5,7 @@ keywords: null
 author: CitruXonve
 language: en
 timezone: null
-url: 'http://yoursite.com/'
+url: '__BASE_URL__'
 root: /
 permalink: 'posts/:abbrlink/'
 permalink_defaults: null
@@ -23,7 +23,9 @@ skip_render: null
 new_post_name: ':title.md'
 default_layout: post
 titlecase: false
-external_link: true
+external_link:
+  enable: true
+  field: site
 filename_case: 0
 render_drafts: false
 post_asset_folder: false

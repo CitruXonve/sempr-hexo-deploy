@@ -153,50 +153,56 @@ search:
 # Comment plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Comment/
 comment:
-    type: disqus
-    # Disqus shortname
-    shortname: ''
+    # type: disqus
+    # # Disqus shortname
+    # shortname: ''
+    type: utterances
+    repo: CitruXonve/devblog
+    issue_term: pathname
+    label: utteranc
+    theme: github-light
+    
 # Donate plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Donation/
-donates:
-    # "Afdian.net" donate button configurations
-    -
-        type: afdian
-        # URL to the "Afdian.net" personal page
-        url: ''
-    # Alipay donate button configurations
-    -
-        type: alipay
-        # Alipay qrcode image URL
-        qrcode: ''
-    # "Buy me a coffee" donate button configurations
-    -
-        type: buymeacoffee
-        # URL to the "Buy me a coffee" page
-        url: ''
+# donates:
+    # # "Afdian.net" donate button configurations
+    # -
+    #     type: afdian
+    #     # URL to the "Afdian.net" personal page
+    #     url: ''
+    # # Alipay donate button configurations
+    # -
+    #     type: alipay
+    #     # Alipay qrcode image URL
+    #     qrcode: ''
+    # # "Buy me a coffee" donate button configurations
+    # -
+    #     type: buymeacoffee
+    #     # URL to the "Buy me a coffee" page
+    #     url: ''
     # Patreon donate button configurations
-    -
-        type: patreon
-        # URL to the Patreon page
-        url: ''
+    # -
+    #     type: patreon
+    #     # URL to the Patreon page
+    #     url: ''
     # Paypal donate button configurations
-    -
-        type: paypal
-        # Paypal business ID or email address
-        business: ''
-        # Currency code
-        currency_code: USD
+    # -
+    #     type: paypal
+    #     # Paypal business ID or email address
+    #     business: ''
+    #     # Currency code
+    #     currency_code: USD
     # Wechat donate button configurations
-    -
-        type: wechat
-        # Wechat qrcode image URL
-        qrcode: ''
+    # -
+    #     type: wechat
+    #     # Wechat qrcode image URL
+    #     qrcode: ''
 # Share plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Share/
 share:
     type: sharethis
     # URL to the ShareThis share plugin script
-    install_url: ''
+    install_url: 'https://platform-api.sharethis.com/js/sharethis.js#property=60e3b95fb3bfa200125f409c&product=inline-share-buttons'
 # Sidebar configurations.
 # Please be noted that a sidebar is only visible when it has at least one widget
 sidebar:
@@ -294,11 +300,13 @@ widgets:
         type: links
         # Names and URLs of the sites
         links:
+            '闪烁之狐': 'https://blinkfox.github.io/'
+            '绯索卡': 'https://phesoca.com/'
+            '笈川伊織（紙喵）': 'https://paperneko.moe/'
+            'Ayaka Neko': 'https://neko.ayaka.moe/'
+            Sukka: 'https://blog.skk.moe/'
             Hexo: 'https://hexo.io'
             Bulma: 'https://bulma.io'
-            Sukka: 'https://blog.skk.moe/'
-            'Ayaka Neko': 'https://neko.ayaka.moe/'
-            '笈川伊織（紙喵）': 'https://paperneko.moe/'
             Function: https://funactional.github.io/
             kuangbin: http://www.kuangbin.net/
             hzwer: http://hzwer.com/

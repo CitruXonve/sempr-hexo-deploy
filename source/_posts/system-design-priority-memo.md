@@ -1,8 +1,9 @@
 ---
 title: System Design Memorandum on Priority Topics
-date: 2021-03-13 15:01:06
 tags:
-    - System Design
+  - System Design
+abbrlink: 288a795e
+date: 2021-03-13 15:01:06
 ---
 
 ### Cache is to reduce latency in the system.

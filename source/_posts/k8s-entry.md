@@ -1,10 +1,11 @@
 ---
 title: Kubernetes (K8s) Containerization at an Entry Level
-date: 2021-02-23 23:09:41
 tags:
-    - K8s
+  - K8s
 categories:
-    - DevOps
+  - DevOps
+abbrlink: '92383761'
+date: 2021-02-23 23:09:41
 ---
 
 ## What?

@@ -1,13 +1,13 @@
 ---
 title: Data Analytics from the Perspective of AWS
-date: 2021-03-05 21:57:53
 tags:
-    - Data Analytics
-    - AWS
+  - Data Analytics
+  - AWS
 categories:
-    - Computing
-        - Cloud
-    - Notes
+  - Computing - Cloud
+  - Notes
+abbrlink: 541fef6d
+date: 2021-03-05 21:57:53
 ---
 
 ## Data Analytics at a Glance

@@ -1,13 +1,13 @@
 ---
 title: Learning Paths towards AWS Certification
-date: 2021-02-20 16:29:06
 tags:
-    - Data Analytics
-    - AWS
+  - Data Analytics
+  - AWS
 categories:
-    - Computing
-        - Cloud
-    - Notes
+  - Computing - Cloud
+  - Notes
+abbrlink: 115e2ac7
+date: 2021-02-20 16:29:06
 ---
 
 ## AWS IaaS
