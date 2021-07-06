@@ -26,7 +26,7 @@ before_script:
 - git config --global user.email 'silveritdean@gmail.com'
 - git submodule sync
 - git submodule update --init
-- sed -i "s/__BASE_URL__/$BASE_URL/g" ./config.yml
+- sed -i "s|__BASE_URL__|$BASE_URL|g" ./config.yml
 - sed -i "s/__DEPLOY_ACCESS_TOKEN__/$DEPLOY_ACCESS_TOKEN/g" ./_config.yml
 # - cp ./_theme_config.yml ./themes/$SELECTED_THEME_NAME/_config.yml # deprecated 
 - sed -i "s|__ASSETS_HOST_NAME__|$ASSETS_HOST_NAME|g" ./source/_posts/wp*.md
