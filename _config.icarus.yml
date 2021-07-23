@@ -300,6 +300,7 @@ widgets:
         type: links
         # Names and URLs of the sites
         links:
+            '雾雨魔理沙': 'http://marisa.moe/'
             '闪烁之狐': 'https://blinkfox.github.io/'
             '绯索卡': 'https://phesoca.com/'
             '笈川伊織（紙喵）': 'https://paperneko.moe/'
